@@ -1,0 +1,363 @@
+<!doctype html>
+<html lang="es" id="top">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Explora la carta de Nativa Café: cafés de origen, bebidas frías y pastelería artesanal con precios referenciales."
+    />
+    <meta name="theme-color" content="#263b2d" />
+    <title>Nuestra carta | Nativa Café</title>
+    <link rel="icon" href="assets/img/favicon.ico" sizes="any" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <script src="assets/js/main.js" defer></script>
+  </head>
+  <body data-page="carta">
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+    <div class="topbar">
+      <div class="container topbar__inner">
+        <p>
+          <i class="fa-solid fa-location-dot" aria-hidden="true"></i> Av. La
+          Arboleda 245, Miraflores, Lima
+        </p>
+        <div class="topbar__links">
+          <a href="tel:+5115550148"
+            ><i class="fa-solid fa-phone" aria-hidden="true"></i> (01)
+            555-0148</a
+          >
+          <a href="mailto:hola@nativacafe.pe"
+            ><i class="fa-regular fa-envelope" aria-hidden="true"></i>
+            hola@nativacafe.pe</a
+          >
+        </div>
+      </div>
+    </div>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="index.html" aria-label="Nativa Café, inicio">
+          <span class="brand__icon"
+            ><i class="fa-solid fa-mug-hot" aria-hidden="true"></i
+          ></span>
+          <span class="brand__word">NATIVA <small>CAFÉ DE ORIGEN</small></span>
+        </a>
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-label="Abrir menú"
+          aria-expanded="false"
+          aria-controls="main-navigation"
+        >
+          <span></span><span></span><span></span>
+        </button>
+        <nav
+          class="main-nav"
+          id="main-navigation"
+          aria-label="Navegación principal"
+        >
+          <a class="main-nav__link" href="index.html">Inicio</a
+          ><a class="main-nav__link" href="nosotros.html">Nosotros</a
+          ><a
+            class="main-nav__link is-active"
+            href="nuestra-carta.html"
+            aria-current="page"
+            >Nuestra carta</a
+          ><a class="main-nav__link" href="horarios.html">Horarios</a
+          ><a class="main-nav__link" href="galeria.html">Galería</a
+          ><a class="main-nav__link" href="visitanos.html">Visítanos</a
+          ><a class="main-nav__link" href="contactanos.html">Contáctanos</a>
+          <a class="main-nav__cta" href="visitanos.html"
+            >Cómo llegar
+            <i class="fa-solid fa-arrow-right" aria-hidden="true"></i
+          ></a>
+        </nav>
+      </div>
+    </header>
+    <main id="contenido">
+      <section class="page-hero page-hero--menu">
+        <div class="container page-hero__content">
+          <p class="eyebrow eyebrow--light">
+            <span></span> PREPARADO AL MOMENTO
+          </p>
+          <h1>Sabores para<br /><em>hacer una pausa.</em></h1>
+          <p>
+            Cafés, bebidas frías y pastelería artesanal para acompañar tu
+            momento.
+          </p>
+          <div class="breadcrumbs">
+            <a href="index.html">Inicio</a
+            ><i class="fa-solid fa-chevron-right" aria-hidden="true"></i
+            ><span>Nuestra carta</span>
+          </div>
+        </div>
+      </section>
+      <section class="section section--paper">
+        <div class="container">
+          <div class="menu-intro-row reveal">
+            <div>
+              <p class="eyebrow">NUESTRA SELECCIÓN</p>
+              <h2>Encuentra tu próximo<br /><em>favorito.</em></h2>
+            </div>
+            <p>
+              Preparamos cada bebida al momento y elegimos ingredientes que
+              resaltan los sabores de cada receta.
+            </p>
+          </div>
+          <div
+            class="filter-bar"
+            role="group"
+            aria-label="Filtrar productos de la carta"
+          >
+            <button
+              class="filter-button is-active"
+              type="button"
+              data-filter="todos"
+              aria-pressed="true"
+            >
+              Todos</button
+            ><button
+              class="filter-button"
+              type="button"
+              data-filter="cafe"
+              aria-pressed="false"
+            >
+              Café caliente</button
+            ><button
+              class="filter-button"
+              type="button"
+              data-filter="frio"
+              aria-pressed="false"
+            >
+              Bebidas frías</button
+            ><button
+              class="filter-button"
+              type="button"
+              data-filter="dulce"
+              aria-pressed="false"
+            >
+              Pastelería
+            </button>
+          </div>
+          <div class="menu-products">
+            <article class="menu-product reveal" data-category="cafe">
+              <img
+                src="assets/img/nativa-latte.webp"
+                alt="Taza de latte con arte en la espuma"
+                loading="lazy"
+              />
+              <div class="menu-product__body">
+                <span class="eyebrow">CAFÉ CALIENTE</span>
+                <div class="menu-product__heading">
+                  <h3>Latte de la casa</h3>
+                  <strong>S/ 12</strong>
+                </div>
+                <p>
+                  Espresso doble con leche texturizada y una capa suave de
+                  espuma.
+                </p>
+              </div>
+            </article>
+            <article class="menu-product reveal" data-category="cafe">
+              <img
+                src="assets/img/galeria-granos.svg"
+                alt="Granos de café tostados"
+                loading="lazy"
+              />
+              <div class="menu-product__body">
+                <span class="eyebrow">CAFÉ CALIENTE</span>
+                <div class="menu-product__heading">
+                  <h3>Espresso de origen</h3>
+                  <strong>S/ 8</strong>
+                </div>
+                <p>
+                  Intenso y equilibrado, con notas de cacao, panela y frutos
+                  secos.
+                </p>
+              </div>
+            </article>
+            <article class="menu-product reveal" data-category="frio">
+              <img
+                src="assets/img/nativa-barista.webp"
+                alt="Preparación de café filtrado"
+                loading="lazy"
+              />
+              <div class="menu-product__body">
+                <span class="eyebrow">BEBIDA FRÍA</span>
+                <div class="menu-product__heading">
+                  <h3>Cold brew cítrico</h3>
+                  <strong>S/ 14</strong>
+                </div>
+                <p>Extracción en frío, notas suaves, naranja y hielo.</p>
+              </div>
+            </article>
+            <article class="menu-product reveal" data-category="cafe">
+              <img
+                src="assets/img/cafe-origen.svg"
+                alt="Ilustración de una taza de café"
+                loading="lazy"
+              />
+              <div class="menu-product__body">
+                <span class="eyebrow">CAFÉ CALIENTE</span>
+                <div class="menu-product__heading">
+                  <h3>Americano</h3>
+                  <strong>S/ 9</strong>
+                </div>
+                <p>
+                  Espresso alargado con agua caliente, de sabor limpio y ligero.
+                </p>
+              </div>
+            </article>
+            <article class="menu-product reveal" data-category="dulce">
+              <img
+                src="assets/img/nativa-pasteleria.webp"
+                alt="Croissant y pastelería artesanal"
+                loading="lazy"
+              />
+              <div class="menu-product__body">
+                <span class="eyebrow">PASTELERÍA</span>
+                <div class="menu-product__heading">
+                  <h3>Roll de canela</h3>
+                  <strong>S/ 10</strong>
+                </div>
+                <p>Masa suave, canela aromática y glaseado ligero.</p>
+              </div>
+            </article>
+            <article class="menu-product reveal" data-category="dulce">
+              <img
+                src="assets/img/galeria-pastel.svg"
+                alt="Pastel artesanal"
+                loading="lazy"
+              />
+              <div class="menu-product__body">
+                <span class="eyebrow">PASTELERÍA</span>
+                <div class="menu-product__heading">
+                  <h3>Cheesecake de estación</h3>
+                  <strong>S/ 15</strong>
+                </div>
+                <p>Preparación artesanal con fruta fresca de temporada.</p>
+              </div>
+            </article>
+          </div>
+          <p class="menu-disclaimer menu-disclaimer--light">
+            <i class="fa-solid fa-circle-info" aria-hidden="true"></i> Carta y
+            precios referenciales para el proyecto académico. La disponibilidad
+            puede variar.
+          </p>
+          <div class="menu-cta reveal">
+            <div>
+              <p class="eyebrow eyebrow--light">¿TIENES ALGUNA CONSULTA?</p>
+              <h2>Tu pedido empieza<br /><em>con una conversación.</em></h2>
+            </div>
+            <a class="button button--gold" href="contactanos.html"
+              >Contáctanos
+              <i class="fa-solid fa-arrow-right" aria-hidden="true"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-main">
+        <div class="footer-brand-block">
+          <a
+            class="brand brand--footer"
+            href="index.html"
+            aria-label="Nativa Café, volver al inicio"
+          >
+            <span class="brand__icon"
+              ><i class="fa-solid fa-mug-hot" aria-hidden="true"></i
+            ></span>
+            <span class="brand__word"
+              >NATIVA <small>CAFÉ DE ORIGEN</small></span
+            >
+          </a>
+          <p>Un buen café. Un momento tuyo.</p>
+        </div>
+        <div class="footer-column">
+          <h2>Explora</h2>
+          <a href="nosotros.html">Nosotros</a>
+          <a href="nuestra-carta.html">Nuestra carta</a>
+          <a href="horarios.html">Horarios</a>
+          <a href="galeria.html">Galería</a>
+          <a href="visitanos.html">Visítanos</a>
+        </div>
+        <div class="footer-column footer-contact">
+          <h2>Hablemos</h2>
+          <a href="tel:+5115550148"
+            ><i class="fa-solid fa-phone" aria-hidden="true"></i> (01)
+            555-0148</a
+          >
+          <a href="mailto:hola@nativacafe.pe"
+            ><i class="fa-regular fa-envelope" aria-hidden="true"></i>
+            hola@nativacafe.pe</a
+          >
+          <a
+            href="https://wa.me/51955550148"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+            WhatsApp</a
+          >
+          <p>
+            <i class="fa-solid fa-location-dot" aria-hidden="true"></i> Av. La
+            Arboleda 245, Miraflores
+          </p>
+        </div>
+        <div class="footer-column footer-social">
+          <h2>Síguenos</h2>
+          <p>Compartimos aromas, novedades y pequeños momentos.</p>
+          <div class="social-links">
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Instagram"
+              ><i class="fa-brands fa-instagram" aria-hidden="true"></i
+            ></a>
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Facebook"
+              ><i class="fa-brands fa-facebook-f" aria-hidden="true"></i
+            ></a>
+            <a
+              href="https://www.tiktok.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="TikTok"
+              ><i class="fa-brands fa-tiktok" aria-hidden="true"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container footer-bottom__inner">
+          <p>
+            © <span data-year>2026</span> Nativa Café. Todos los derechos
+            reservados.
+          </p>
+          <a href="contactanos.html">Contacto y consultas</a>
+          <p class="academic-note">Proyecto académico · Datos referenciales</p>
+        </div>
+      </div>
+    </footer>
+    <a
+      class="back-to-top"
+      href="#top"
+      aria-label="Volver al inicio de la página"
+      ><i class="fa-solid fa-arrow-up" aria-hidden="true"></i
+    ></a>
+    <div class="toast" role="status" aria-live="polite"></div>
+  </body>
+</html>
